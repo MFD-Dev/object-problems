@@ -13,30 +13,20 @@ var newObj = {
 }
 
 
+// function myFunction(param1, param2) {
+//     delete param1[param2];
+//    return  param1;
+// };
 
 
-// delete newObj.position;
-// console.log(newObj);
-
-function myFuncton() {
-
-    delete newObj.position; 
-
+function myFunction(param1, param2) {
+    console.log(param1[param2])  // for some reason when I remove the console logs
+    delete param1[param2];      // the code breaks.
+   return  param1;
+   console.log(myFunction())
 }
 
-  console.log(myFuncton());
-
-// function myFuncton(param1, param2) {
-//     console.log(myFuncton)
-//    return delete param1.param2;
-//    console.log(myFuncton)
-// }
-
-
-// myFuncton(newObj, position);
-
-// console.log(myFuncton(newObj, position));
+console.log(myFunction(newObj, "position"));
 
 
 
-// console.log(myFuncton(n, 'Manager'))
