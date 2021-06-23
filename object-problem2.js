@@ -6,11 +6,26 @@ Your function should take in an object and return the the values above.
 */
 
 
-const user = {
-  firstName: 'Hello',
-  lastName: 'There',
-  age: 20
-}
+// const users = {
+//   firstName: 'Hello',
+//   lastName: 'There',
+//   age: 20
+// }
+
+const users = [
+  {
+    
+    firstName: 'Hello',
+    lastName: 'There',
+    age: 20,
+  },
+  {
+    firstName: 'Hey',
+    lastName: 'Peoples',
+    age: 20
+  }
+
+]
 
 
 // console.log(Object.keys(user))
@@ -19,8 +34,15 @@ const user = {
 //   console.log(`${key} => ${user[0, 1]}`);
 // }
 
-console.log(Object.entries(user));
+// console.log(Object.entries(users));
 
-for (const [key, value] of Object.entries(user)) {
+function myFuncton() {
+
+for (const [key, value] of Object.entries(users)) {
   console.log(`${key} => ${value}`);
 }
+
+
+}
+
+console.log(myFuncton());
