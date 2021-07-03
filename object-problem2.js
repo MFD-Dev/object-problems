@@ -28,6 +28,19 @@ const users = [
 ]
 
 
+function myFunction(f, l, a) {
+  var f = firstName;
+  var l = lastName;
+  var a = age;
+  return {
+    f,
+    l,
+    a,
+  }
+}
+
+console.log(myFunction(users[f]))
+
 // console.log(Object.keys(user))
 
 // for (const key of Object.keys(user)) {
@@ -36,13 +49,13 @@ const users = [
 
 // console.log(Object.entries(users));
 
-function myFuncton() {
+// function myFuncton() {
 
-for (const [key, value] of Object.entries(users)) {
-  console.log(`${key} => ${value}`);
-}
+// for (const [key, value] of Object.entries(users)) {
+//   console.log(`${key} => ${value}`);
+// }
 
 
-}
+// }
 
-console.log(myFuncton());
+// console.log(myFuncton());
