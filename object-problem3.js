@@ -15,14 +15,19 @@ const user = {
 
 // console.log(user)
 
-function sumArgs(a)  {
-  console.log(arguments)
-  let sum = 0;
-  for (let i = 0; i < obj.length; i++) {
-    sum += arguments[i];
-  }
-return sum;
+function myFunction() {
+  document.write("Length is " + user.length);
 }
 
-sumArgs(user)
+console.log(myFunciton)
+// function sumArgs(a)  {
+//   console.log(arguments)
+//   let sum = 0;
+//   for (let i = 0; i < obj.length; i++) {
+//     sum += arguments[i];
+//   }
+// return sum;
+// }
+
+// sumArgs(user)
 // console.log(info(user))

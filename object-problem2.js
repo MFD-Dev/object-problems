@@ -1,7 +1,8 @@
 /*
 Objects: Problem 2
 Module 3: JavaScript
-Create an array of people objects with first name, last name, and age, then write a JavaScript program to display the first and last names of all the people.
+Create an array of people objects with first name, last name, and age, then write a
+ JavaScript program to display the first and last names of all the people.
 Your function should take in an object and return the the values above.
 */
 
@@ -28,18 +29,26 @@ const users = [
 ]
 
 
-function myFunction(f, l, a) {
-  var f = firstName;
-  var l = lastName;
-  var a = age;
-  return {
-    f,
-    l,
-    a,
-  }
-}
+let userNames = users.filter
 
-console.log(myFunction(users[f]))
+// for (var i = 0; i < users.length; i++) {
+//   var usersName =
+//    users[i].firstName {
+//      console.log(users);
+//    }
+// }
+// function myFunction(f, l, a) {
+//   var f = firstName;
+//   var l = lastName;
+//   var a = age;
+//   return {
+//     f,
+//     l,
+//     a,
+//   }
+// }
+
+// console.log(myFunction(users[f]))
 
 // console.log(Object.keys(user))
 
