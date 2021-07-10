@@ -18,15 +18,14 @@ var newObj = {
 //    return  param1;
 // };
 
+console.log(newObj);
+
 
 function myFunction(param1, param2) {
-    console.log(param1[param2])  // for some reason when I remove the console logs
-    delete param1[param2];      // the code breaks.
+    delete param1[param2];      // 
    return  param1;
-   console.log(myFunction())
 }
 
 console.log(myFunction(newObj, "position"));
-
 
 
