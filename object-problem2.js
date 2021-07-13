@@ -28,8 +28,12 @@ const users = [
 
 ]
 
+for (let key in users) {
+  console.log(key);
+  console.log(users(key));
+}
 
-let userNames = users.filter
+// let userNames = users.filter
 
 // for (var i = 0; i < users.length; i++) {
 //   var usersName =
