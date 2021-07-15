@@ -12,8 +12,19 @@ user = {
   age: 20
 }
 
-function info(obj, key) {
-  return obj != null && user.firstName(obj, key);
+//create a function that I pass in a obj to.
+function findKey(obj) {
+  //used hOP method to check if key exists
+  const hasKey = user.hasOwnProperty('name');
+//pass the variable as a parameter
+if(hasKey) {
+  console.log('Yes the key exists!');
   
+} else {
+  console.log('No it does not exist.')
 }
-console.log(info(user))
+}
+
+findKey(user);//'No it does not exist.' because
+// the key in the object is firstName or lastName
+//and the function is searching for 'name'.
