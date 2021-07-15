@@ -5,21 +5,14 @@ Create an object with three items in it, then write a JavaScript function that a
 object and tells you the length (tells you how many items are in it) of the object.
 */
 
-Object.objectsize = function(obj) {
-  var objSize = 0, key;
-  for (key in myObj) {
-    if (myObj.hasOwnProperty(key)) objSize++;
-  }
-  return objSize;
-};
+var object = {one: 1, two:2, three:3};
 
-const user = {
-  firstname: 'Michael',
-  lastName: 'Jackson',
-  job: 'singer'
-};
+function getLength() {
+  //Object.keys property checks whether there are any properties.
+  // the .length property added to it gives the # of prop that are displayed.
+     document.write(Object.keys(object).length);
+}
 
-var objFinalSize = Object.objFinalSize(user);
-console.log(objFinalSize);
+getLength(object);
 
 
