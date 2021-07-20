@@ -6,6 +6,7 @@ whether an object contains the specified key.
 */
 
 
+
 user = {
   firstName: 'Michael',
   lastName: 'Jackson',
@@ -13,9 +14,9 @@ user = {
 }
 
 //create a function that I pass in a obj to.
-function findKey(obj) {
+function findKey(obj, key) {
   //used hOP method to check if key exists
-  const hasKey = user.hasOwnProperty('name');
+  const hasKey = obj.hasOwnProperty.key;
 //pass the variable as a parameter
 if(hasKey) {
   console.log('Yes the key exists!');
@@ -25,6 +26,9 @@ if(hasKey) {
 }
 }
 
-findKey(user);//'No it does not exist.' because
+findKey(user, 'Michael');//'No it does not exist.' because
 // the key in the object is firstName or lastName
 //and the function is searching for 'name'.
+
+
+console.log(findKey(user, firstName));
