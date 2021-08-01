@@ -26,4 +26,4 @@ function findKey(obj, key) {
   return obj.hasOwnProperty.key;
 }
 
-console.log(findKey(user, "firstName"));
+console.log(user.hasOwnProperty('firstName'));
